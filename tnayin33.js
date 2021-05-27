@@ -1,5 +1,5 @@
  /* var b=prompt("mutqagrel dzer anun@");
-                        alert("barev "+b); */
+                            alert("barev "+b); */
 
 
  /* var day=365;
@@ -124,9 +124,11 @@
      case 3:
      case 4:
          console.log("Գարուն");
+         break;
      case 5:
      case 6:
      case 7:
-         console.log("“Աշուն")
+         console.log("“Աշուն");
+         break;
 
  }
