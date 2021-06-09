@@ -163,10 +163,23 @@ console.log(arr3);
 /*.14 Ստուգել զանգվածի սիմետրիկությունը։ */
 
 
-var arr = [1, 7, 9, 6, -5, 1];
-var s = arr;
-for (var i = arr.length - 1; i >= 0; i--) {
-    s.push(arr[i]);
+/* var arr = [1, 7, 9, 6, -5, 1];
+for (var i = 0; i < arr.length / 2; i++) {
+    var a = arr[i];
+    arr[i] = arr[arr.length - 1 - i];
+    arr[arr.length - 1 - i] = a;
+} 
 
+console.log(arr);*/
+
+
+var bool = true;
+var arr = [1, 1, 2, 1, 1];
+for (var i = 0; i < arr.length / 2; i++) {
+    if (arr[i] !== arr[arr.length - 1 - i]) {
+        bool = false;
+
+
+    }
 }
-console.log(s);
+console.log(bool);
