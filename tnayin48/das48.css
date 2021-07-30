@@ -50,6 +50,28 @@ align-items: center;
     height: 150px;
     background-color: bisque;
     font-size: 30px;
+}
 
-
+.img{
+    margin-top: 50px;
+    width: 50%;
+    height: 50%;
+}
+img{
+    width: 100%;
+    height: 50%;
+}
+.b {
+    text-align: center;
+}
+.b button{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 71, 178);
+    font-size: 25px;
+}
+h1{
+    width: 100%;
+    text-align: center;
 }
