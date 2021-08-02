@@ -1,7 +1,15 @@
 
 // let div=document.getElementsByTagName("div")[0];
 
+
 let bt=document.getElementsByTagName("button")[0];
+
+function rgbFunc(){
+    var r=Math.floor(Math.random()*255)
+    var g=Math.floor(Math.random()*255)
+    var b=Math.floor(Math.random()*255)
+    return 'rgb('+r+','+g+','+b+')';
+}
 bt.addEventListener("click",function(e){
     let radio=document.querySelector(".radio");
     if(radio.checked){
@@ -18,15 +26,18 @@ bt.addEventListener("click",function(e){
             for(let col=0;col < column;col++){
                 
                 let td=document.createElement("td")
-                td.style.width=`${width}px`
-                td.style.height=`${height}px`
-                td.style.backgroundColor="random blue";
+                td.addEventListener("mouseover",function(){
+                this.style.backgroundColor=rgbFunc()
+                })
+                table.style.width=`${width}px`
+                table.style.height=`${height}px`
                 tr.appendChild(td)
             }
             table.appendChild(tr)
 
         }
     }
+   
     })
     
 
