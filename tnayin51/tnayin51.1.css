@@ -1,0 +1,32 @@
+
+
+.input{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    margin: 200px 220px 0;
+    
+}
+input{
+    margin: 10px;
+}
+.click{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    margin: 100px 700px;
+}
+
+.div1{
+
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 100px 1000px;
+    font-size: 50px;
+    text-align: center;
+
+}
+ 
+
