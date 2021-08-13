@@ -1,12 +1,12 @@
-// let obj = {
-//     name: 'Armine',
-//     'lname': 'sargsyan',
-//     age: 18,
-//     hb: function() {
-//         return ++this.age
-//     }
+let obj = {
+    name: 'Armine',
+    'lname': 'sargsyan',
+    age: 18,
+    hb: function() {
+        return ++this.age
+    }
 
-// }
+}
 // delete(obj.lname);
 // console.log(obj)
 // console.log(obj.hb());
@@ -17,26 +17,26 @@
 
 
 
-// let obj1 = {
-//     name: 'Anna',
-//     surname: 'Harutyunyan',
-//     age: 20,
-//     f: full
+let obj1 = {
+    name: 'Anna',
+    surname: 'Harutyunyan',
+    age: 20,
+    f: full
 
-// }
-// let obj2 = {
-//     name: 'Armen',
-//     surname: 'Vardanyan',
-//     age: 22,
-//     f: full
-// }
+}
+let obj2 = {
+    name: 'Armen',
+    surname: 'Vardanyan',
+    age: 22,
+    f: full
+}
 
-// function full() {
-//     return this.name + "  " + this.surname + " " + this.age;
+function full() {
+    return this.name + "  " + this.surname + " " + this.age;
 
-// }
-// console.log(obj1.f());
-// console.log(obj2.f());
+}
+console.log(obj1.f());
+console.log(obj2.f());
 
 
 // let user = {
@@ -258,21 +258,21 @@
 // Եթե մեծ է 40 - ից տպել“ բավարար”։ Եթե փոքր է 40 - ից տպել“ հեռացնել բուհ - ից” արտահայտությունը։
 
 
-let x = 0;
-let usanox = {
-    name: 'Diana',
-    lname: 'Hovhannisyan',
-    matematika: 20,
-    fizika: 3,
-    info: 10
-}
-if (usanox.matematika + usanox.fizika + usanox.info > 80) {
-    alert('gerazanc');
-}
-if (usanox.matematika + usanox.fizika + usanox.info > 70 &&
-    usanox.matematika + usanox.fizika + usanox.info < 80) {
-    alert("lav")
-}
-if (usanox.matematika + usanox.fizika + usanox.info < 40) {
-    alert('bav');
-}
+// let x = 0;
+// let usanox = {
+//     name: 'Diana',
+//     lname: 'Hovhannisyan',
+//     matematika: 20,
+//     fizika: 3,
+//     info: 10
+// }
+// if (usanox.matematika + usanox.fizika + usanox.info > 80) {
+//     alert('gerazanc');
+// }
+// if (usanox.matematika + usanox.fizika + usanox.info > 70 &&
+//     usanox.matematika + usanox.fizika + usanox.info < 80) {
+//     alert("lav")
+// }
+// if (usanox.matematika + usanox.fizika + usanox.info < 40) {
+//     alert('bav');
+// }

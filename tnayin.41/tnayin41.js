@@ -1,4 +1,4 @@
-//.1 String - ի մեջ եղած n - երը փոխարինել xy տառերով։
+// .1 String - ի մեջ եղած n - երը փոխարինել xy տառերով։
 
 // let str = "Im anunn e Anna ";
 // let arr = str.split("");
@@ -111,7 +111,7 @@
 //         }
 //     }
 // }
-// console.log(res.join(" ")
+// console.log(res.join(" "))
 
 
 
@@ -158,10 +158,10 @@
 //     ազգանունը և հայրանունը, այնուհետև կվերադարձնի արժեքները մեկ տողով՝ իրարից անջատված մեկ տարածությամբ;
 
 
-function fuulName() {
-    let x = prompt("anun");
-    let y = prompt("azganun");
-    let z = prompt("hayranun");
-    return (x + " " + y + " " + z);
-}
-alert(fuulName());
+// function fuulName() {
+//     let x = prompt("anun");
+//     let y = prompt("azganun");
+//     let z = prompt("hayranun");
+//     return (x + " " + y + " " + z);
+// }
+// alert(fuulName())

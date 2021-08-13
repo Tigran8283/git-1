@@ -57,16 +57,16 @@
 //4. Ստեղծել ֆունկցիա, որը որպես արգումենտ կստանա օր, ամիս, տարի և
 // այդ տվյալների հիման վրա կվերադարձնի մարդու տարիքը։
 
-// let p = prompt("mutaqrel taretiv@")
+let p = prompt("mutaqrel taretiv@")
 
-// function f() {
-//     let d = new Date()
+function f() {
+    let d = new Date()
 
-//     let y = d.getFullYear();
+    let y = d.getFullYear();
 
-//     return y - p
-// }
-// alert(f());
+    return y - p
+}
+alert(f());
 
 
 
