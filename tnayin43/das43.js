@@ -54,8 +54,21 @@
 // }
 // let { title, width, height } = optons;
 // alert(title);
-// alert(width);
-// alert(height)
+// alert(width+" "+"width");
+// alert(height+""+" heigth")
+
+
+// let a={
+//     name:"Anna",
+//     lname:"Hakobyan",
+//     age:19
+// }
+// let{name,lname,age}=a
+// alert(name)
+// alert(lname)
+// alert(age)
+
+////////////////////////
 
 // let { height, width, title } = { title: 'menu', height: 200, width: 150 }
 // console.log(title, height, width);
@@ -73,6 +86,16 @@
 // alert(title)
 
 
+// let a={
+//     name:"Anna",
+//     lname:"Vardanyan",
+//     age:30
+// }
+// let {age:tariq,lname:azganun,name}=a
+// alert(tariq)
+// alert(azganun)
+// alert(name)
+
 // let optons = {
 //     title: 'Menu',
 //     width: 100,
@@ -82,6 +105,16 @@
 // alert(rest.height);
 // alert(rest.width)
 
+
+
+// let a={
+//     name:"Anna",
+//      lname:"Vardanyan",
+//     age:30
+// } 
+// let { name, ...rest } = a
+// alert(rest.lname)
+// alert(rest.age)
 
 
 // Ստեղծել զանգված data անունով և նրա մեջ պահել 1, 2, 3 թվերը;
@@ -115,6 +148,16 @@
 // let { f1, f2: field2, f4 = 'v4' } = obj;
 // console.log(f1, field2, f4);
 
+// let obj1={
+//     name:"Anna",
+//      lname:"Vardanyan",
+//      age:30
+// }
+// let{name,lname: tayson,phone="091933993"}=obj1
+// console.log(name,tayson,phone)
+// // alert(name)
+// // alert(tayson)
+// // alert(phone)
 
 
 // let x = {
@@ -124,7 +167,17 @@
 //     phone: 43570000
 // }
 // let { anun: a, azganun: z, age, phone: tel, email = ' Tigrankocharyan@mail.ru ' } = x;
-// console.log(a, z, age, tel, email);
+// console.log(a, z,"tariq, "+ age,"tel, "+ tel, email);
+// ///////////////
+
+// let obj2={
+//     name:"Anna",
+//      lname:"Vardanyan",
+//      age:30,
+//      phone:91933993
+// }
+// let{name:n,lname:l,age:t,phone:p}=obj2
+// console.log(n,l,t,p)
 
 
 
@@ -159,21 +212,22 @@
 // alert(number2)
 
 
-// let x = [1, 3, 6, 8, 0, 12];
-// let [num1, ...rest] = x;
-// console.log(rest.length);
+let x = [1, 3, 6, 8, 0, 12];
+let [num1, ...rest] = x;
+console.log(rest.length);
+console.log(rest)
 
 
-// let a = 5;
-// let b = 12;
-// [a, b] = [b, a];
-// console.log(a, b)
+let a = 5;
+let b = 12;
+[a, b] = [b, a];
+console.log(a, b)
 
 
-// let obj = {
-//     name: 'John',
-//     srname: 'Vardanyan'
-// }
+let obj = {
+    name: 'John',
+    srname: 'Vardanyan'
+}
 
-// let { name, srname } = obj;
-// console.log(name, srname)
+let { name, srname } = obj;
+console.log(name, srname)

@@ -1,3 +1,54 @@
+/////////Date/////////
+
+
+
+// let date = new Date();
+// console.log(date);
+// console.log(+date);
+
+// let date = Date.now();
+// console.log(date);
+
+
+
+// let date = new Date();
+// console.log(date.getFullYear());
+// console.log(date.getMonth() + 1);
+// console.log(date.getDate());
+// console.log(date.getDay());
+// console.log(date.getHours());
+// console.log(date.getMinutes());
+// console.log(date.getSeconds());
+// console.log(date.getUTCMilliseconds())
+
+
+
+let date = new Date(2018, 2, 15, 18, 24);
+console.log(date);
+
+
+
+// let date = new Date();
+// date.setFullYear(2019);
+// date.setMonth(8);
+// date.setDate(20)
+// console.log(date);
+
+
+// let div = document.getElementsByTagName('p')[1];
+
+
+
+// setInterval(function() {
+//     let date = new Date()
+//     let h = (date.getHours() < 10) ? `0${date.getHours()}` : date.getHours()
+//     let m = (date.getMinutes() < 10) ? `0${date.getMinutes()}` : date.getMinutes()
+//     let s = (date.getSeconds() < 10) ? `0${date.getSeconds()}` : date.getSeconds()
+//     div.innerHTML = `${h}: ${m}:${s}`
+
+// }, 1000)
+
+
 //1. Տպել տվյալ օրվա օր ամիս տարին՝ իրարից անջատելով“ / ”նշանով։
 // Ստուգել եթե օրը կամ ամիսը 10 - ից փոքր է դիմացից ավելացնել 0։
 
@@ -57,16 +108,16 @@
 //4. Ստեղծել ֆունկցիա, որը որպես արգումենտ կստանա օր, ամիս, տարի և
 // այդ տվյալների հիման վրա կվերադարձնի մարդու տարիքը։
 
-let p = prompt("mutaqrel taretiv@")
+// let p = prompt("mutaqrel taretiv@")
 
-function f() {
-    let d = new Date()
+// function f() {
+//     let d = new Date()
 
-    let y = d.getFullYear();
+//     let y = d.getFullYear();
 
-    return y - p
-}
-alert(f());
+//     return y - p
+// }
+// alert(f());
 
 
 
